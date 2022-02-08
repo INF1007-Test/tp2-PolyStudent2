@@ -1,7 +1,8 @@
 """
 utils.py
 Fichier contenant des fonctions utilitaires pour l'exécution des tests.
-Ne surtout pas supprimer ce fichier.
+                  NE PAS TOUCHER !!!!!!!!!!!!!!
+
 """
 
 import _thread
