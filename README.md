@@ -1,33 +1,3 @@
-
-## Résultats
-Score | Critères
---- | ---
-0/3 | TestExercice1: test1_combine_dic1
-0/1 | TestExercice1: test1_combine_dic2
-0/2 | TestExercice2: test2_tri_bulle1
-1/1 | TestExercice2: test2_tri_bulle2
-0/1 | TestExercice2: test2_tri_bulle3
-0/3 | TestExercice3: test3_compute_pi1
-0/3 | TestExercice3: test3_compute_pi2
-0/1 | TestExercice4: test41_init_maze1
-0/1 | TestExercice4: test41_init_maze2
-0/1 | TestExercice4: test42_validate_move1
-1/1 | TestExercice4: test42_validate_move2
-1/1 | TestExercice4: test42_validate_move3
-1/1 | TestExercice4: test42_validate_move4
-1/1 | TestExercice4: test42_validate_move5
-1/1 | TestExercice4: test42_validate_move6
-1/1 | TestExercice4: test43_move1
-0/1 | TestExercice4: test43_move2
-0/1 | TestExercice4: test43_move3
-1/1 | TestExercice4: test43_move4
-1/1 | TestExercice4: test43_move5
-1/1 | TestExercice4: test43_move6
-0/1 | TestExercice4: test43_move7
-0/1 | TestExercice4: test43_move8
-10/30 | **Total**
-
-[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # TP2
 
 #### :alarm_clock: [Date de remise le dimanche 20 février à 23h59](https://www.timeanddate.com/countdown/fall?iso=20220220T2355&p0=165&msg=Remise+TP2&font=cursive)
