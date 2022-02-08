@@ -1,3 +1,8 @@
+"""
+Fichier contenant les tests.
+                  NE PAS TOUCHER !!!!!!!!!!!!!!
+
+"""
 import exercice1 as ex1
 import exercice2 as ex2
 import exercice3 as ex3

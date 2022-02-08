@@ -1,0 +1,334 @@
+test1_combine_dic1 (__main__.TestExercice1) ... FAIL
+test1_combine_dic2 (__main__.TestExercice1) ... FAIL
+test2_tri_bulle1 (__main__.TestExercice2) ... FAIL
+test2_tri_bulle2 (__main__.TestExercice2) ... ok
+test2_tri_bulle3 (__main__.TestExercice2) ... FAIL
+test3_compute_pi1 (__main__.TestExercice3) ... FAIL
+test3_compute_pi2 (__main__.TestExercice3) ... FAIL
+test41_init_maze1 (__main__.TestExercice4) ... FAIL
+test41_init_maze2 (__main__.TestExercice4) ... FAIL
+test42_validate_move1 (__main__.TestExercice4) ... FAIL
+test42_validate_move2 (__main__.TestExercice4) ... ok
+test42_validate_move3 (__main__.TestExercice4) ... ok
+test42_validate_move4 (__main__.TestExercice4) ... ok
+test42_validate_move5 (__main__.TestExercice4) ... ok
+test42_validate_move6 (__main__.TestExercice4) ... ok
+test43_move1 (__main__.TestExercice4) ... ok
+test43_move2 (__main__.TestExercice4) ... FAIL
+test43_move3 (__main__.TestExercice4) ... FAIL
+test43_move4 (__main__.TestExercice4) ... ok
+test43_move5 (__main__.TestExercice4) ... ok
+test43_move6 (__main__.TestExercice4) ... ok
+test43_move7 (__main__.TestExercice4) ... FAIL
+test43_move8 (__main__.TestExercice4) ... FAIL
+
+======================================================================
+FAIL: test1_combine_dic1 (__main__.TestExercice1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 28, in test1_combine_dic1
+    self.executer_test(fonction, 'test1_combine_dic1')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 27, in fonction
+    self.assertDictEqual(dic_3, self.result)
+AssertionError: Ellipsis is not an instance of <class 'dict'> : First argument is not a dictionary
+
+======================================================================
+FAIL: test1_combine_dic2 (__main__.TestExercice1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 35, in test1_combine_dic2
+    self.executer_test(fonction, 'test1_combine_dic2')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 34, in fonction
+    self.assertEqual(dic_3, self.dic_1_copy)
+AssertionError: Ellipsis != {'a': 5, 'b': 2, 'c': 9}
+
+======================================================================
+FAIL: test2_tri_bulle1 (__main__.TestExercice2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 45, in test2_tri_bulle1
+    self.executer_test(fonction, 'test2_tri_bulle1')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 44, in fonction
+    self.assertEqual(result, sorted_val)
+AssertionError: Lists differ: [1, 2, 3, 4, 5, 5, 6, 7, 8, 9] != [5, 8, 1, 9, 6, 2, 4, 3, 7, 5]
+
+First differing element 0:
+1
+5
+
+- [1, 2, 3, 4, 5, 5, 6, 7, 8, 9]
++ [5, 8, 1, 9, 6, 2, 4, 3, 7, 5]
+
+======================================================================
+FAIL: test2_tri_bulle3 (__main__.TestExercice2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 64, in test2_tri_bulle3
+    self.executer_test(fonction, 'test2_tri_bulle3')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 62, in fonction
+    self.assertEqual(result, sorted_val)
+AssertionError: Lists differ: [0, 1, 1, 1, 1, 1, 2, 4, 4, 4, 4, 4, 5, 5, 6, 8, 8, 8, 10, 12, 45, 72, 75, 4584] != [5, 2, 4, 8, 6, 1, 5, 75, 12, 72, 4, 8, 1, 0, 45, 1, 4584, 1, 4, 4, 1, 4, 8, 10]
+
+First differing element 0:
+0
+5
+
+- [0, 1, 1, 1, 1, 1, 2, 4, 4, 4, 4, 4, 5, 5, 6, 8, 8, 8, 10, 12, 45, 72, 75, 4584]
++ [5, 2, 4, 8, 6, 1, 5, 75, 12, 72, 4, 8, 1, 0, 45, 1, 4584, 1, 4, 4, 1, 4, 8, 10]
+
+======================================================================
+FAIL: test3_compute_pi1 (__main__.TestExercice3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 81, in test3_compute_pi1
+    self.executer_test(fonction, 'test3_compute_pi1')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 78, in fonction
+    self.assertEqual(result_nb_iter, nb_iter)
+AssertionError: 200001 != 0
+
+======================================================================
+FAIL: test3_compute_pi2 (__main__.TestExercice3)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 94, in test3_compute_pi2
+    self.executer_test(fonction, 'test3_compute_pi2')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 91, in fonction
+    self.assertEqual(result_nb_iter, nb_iter)
+AssertionError: 20001 != 0
+
+======================================================================
+FAIL: test41_init_maze1 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 110, in test41_init_maze1
+    self.executer_test(fonction, 'test41_init_maze1')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 108, in fonction
+    self.assertEqual(maze, self.maze)
+AssertionError: Ellipsis != [['O', 'W', '_', '_', '_', '_', '_'], ['_[102 chars]'X']]
+
+======================================================================
+FAIL: test41_init_maze2 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 123, in test41_init_maze2
+    self.executer_test(fonction, 'test41_init_maze2')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 121, in fonction
+    self.assertEqual(maze, result)
+AssertionError: Ellipsis != [['_', 'W', 'O', '_', '_', '_'], ['_', 'W[274 chars]'_']]
+
+======================================================================
+FAIL: test42_validate_move1 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 130, in test42_validate_move1
+    self.executer_test(fonction, 'test42_validate_move1')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 128, in fonction
+    self.assertTrue(result)
+AssertionError: False is not true
+
+======================================================================
+FAIL: test43_move2 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 187, in test43_move2
+    self.executer_test(fonction, 'test43_move2')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 184, in fonction
+    self.assertEqual(maze, result_maze)
+AssertionError: Lists differ: [['O', 'W', '_', '_', '_', '_', '_'], ['_', [99 chars]'X']] != [['_', 'W', '_', '_', '_', '_', '_'], ['O', [99 chars]'X']]
+
+First differing element 0:
+['O', 'W', '_', '_', '_', '_', '_']
+['_', 'W', '_', '_', '_', '_', '_']
+
+- [['O', 'W', '_', '_', '_', '_', '_'],
+?    ^
+
++ [['_', 'W', '_', '_', '_', '_', '_'],
+?    ^
+
+-  ['_', 'W', 'W', 'W', '_', 'W', '_'],
++  ['O', 'W', 'W', 'W', '_', 'W', '_'],
+   ['_', 'W', '_', '_', '_', 'W', '_'],
+   ['_', '_', '_', 'W', '_', 'W', 'X']]
+
+======================================================================
+FAIL: test43_move3 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 199, in test43_move3
+    self.executer_test(fonction, 'test43_move3')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 196, in fonction
+    self.assertEqual(maze, result_maze)
+AssertionError: Lists differ: [['_', 'W', '_', '_', '_', '_', '_'], ['O', [99 chars]'X']] != [['O', 'W', '_', '_', '_', '_', '_'], ['_', [99 chars]'X']]
+
+First differing element 0:
+['_', 'W', '_', '_', '_', '_', '_']
+['O', 'W', '_', '_', '_', '_', '_']
+
+- [['_', 'W', '_', '_', '_', '_', '_'],
++ [['O', 'W', '_', '_', '_', '_', '_'],
+-  ['O', 'W', 'W', 'W', '_', 'W', '_'],
+?    ^
+
++  ['_', 'W', 'W', 'W', '_', 'W', '_'],
+?    ^
+
+   ['_', 'W', '_', '_', '_', 'W', '_'],
+   ['_', '_', '_', 'W', '_', 'W', 'X']]
+
+======================================================================
+FAIL: test43_move7 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 241, in test43_move7
+    self.executer_test(fonction, 'test43_move7')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 238, in fonction
+    self.assertEqual(maze, result_maze)
+AssertionError: Lists differ: [['_'[80 chars] '_', 'O', '_', 'W', '_'], ['_', '_', '_', 'W', '_', 'W', 'X']] != [['_'[80 chars] '_', '_', 'O', 'W', '_'], ['_', '_', '_', 'W', '_', 'W', 'X']]
+
+First differing element 2:
+['_', 'W', '_', 'O', '_', 'W', '_']
+['_', 'W', '_', '_', 'O', 'W', '_']
+
+  [['_', 'W', '_', '_', '_', '_', '_'],
+   ['_', 'W', 'W', 'W', '_', 'W', '_'],
+-  ['_', 'W', '_', 'O', '_', 'W', '_'],
+?                       -----
+
++  ['_', 'W', '_', '_', 'O', 'W', '_'],
+?                  +++++
+
+   ['_', '_', '_', 'W', '_', 'W', 'X']]
+
+======================================================================
+FAIL: test43_move8 (__main__.TestExercice4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_assignment.py", line 253, in test43_move8
+    self.executer_test(fonction, 'test43_move8')
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 24, in inner
+    result = fn(*args, **kwargs)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 39, in executer_test
+    self.executer_test_sans_timeout(fonction, nom_fonction_testee)
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 48, in executer_test_sans_timeout
+    raise e
+  File "/home/runner/work/tp2-PolyStudent2/tp2-PolyStudent2/test_utils.py", line 43, in executer_test_sans_timeout
+    fonction()
+  File "test_assignment.py", line 250, in fonction
+    self.assertEqual(maze, result_maze)
+AssertionError: Lists differ: [['_'[77 chars]W', '_', 'O', '_', 'W', '_'], ['_', '_', '_', [15 chars]'X']] != [['_'[77 chars]W', 'O', '_', '_', 'W', '_'], ['_', '_', '_', [15 chars]'X']]
+
+First differing element 2:
+['_', 'W', '_', 'O', '_', 'W', '_']
+['_', 'W', 'O', '_', '_', 'W', '_']
+
+  [['_', 'W', '_', '_', '_', '_', '_'],
+   ['_', 'W', 'W', 'W', '_', 'W', '_'],
+-  ['_', 'W', '_', 'O', '_', 'W', '_'],
+?                  -----
+
++  ['_', 'W', 'O', '_', '_', 'W', '_'],
+?             +++++
+
+   ['_', '_', '_', 'W', '_', 'W', 'X']]
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.011s
+
+FAILED (failures=13)
